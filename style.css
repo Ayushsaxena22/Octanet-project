@@ -1,0 +1,96 @@
+body {
+    color: white;
+    padding: 0;
+    margin: 0;
+    background: url('../image/bg.jpg') no-repeat center center fixed;
+    background-size: cover;
+}
+
+.left {
+    position: absolute;
+    left: 34px;
+    top: 20px;
+    display: inline-block;
+}
+
+.mid {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    display: block;
+    width: 50%;
+    margin: 20px auto;
+}
+
+.right {
+    position: absolute;
+    right: 34px;
+    top: 20px;
+    display: inline-block;
+}
+
+.navbar {
+    display: inline-block;
+}
+
+.navbar li {
+    display: inline-block;
+    font-size: 16px;
+}
+
+.navbar li a {
+    color: white;
+    text-decoration: none;
+    padding: 30px 19px;
+}
+
+.navbar li a:hover, .navbar li a:active {
+    text-decoration: underline;
+    color: brown;
+}
+
+.left img {
+    width: 64px;
+    filter: invert(100%);
+}
+
+.btn {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    margin: 0 9px;
+    background-color: black;
+    color: white;
+    padding: 2px 4px;
+    border: 2px solid grey;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+.btn:hover {
+    background-color: brown;
+}
+
+.container {
+    border: 2px solid white;
+    margin: 137px 46px;
+    padding: 37px 13px;
+    width: 33%;
+    border-radius: 11px;
+}
+
+.container h1 {
+    text-align: center;
+}
+
+.form-group input {
+    text-align: center;
+    display: block;
+    width: 223px;
+    padding: 9px;
+    border: 2px solid black;
+    margin: 5px auto;
+    border-radius: 20px;
+}
+
+.container button {
+    display: block;
+    width: 23%;
+    margin: auto;
+}
